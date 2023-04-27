@@ -30,7 +30,15 @@ namespace CMS.Application
 
         private static void Print()
         {
-
+            foreach (Student student in students)
+            {
+                Console.WriteLine(student.FirstName + student.LastName);
+            }
+            
+            foreach(Student student in students)
+            {
+                Console.WriteLine(student.FirstName + student.LastName);
+            }
         }
     }
 }
